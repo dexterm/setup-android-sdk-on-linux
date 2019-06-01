@@ -22,8 +22,11 @@
 		         - 4444:4444
 
 selenium_hub is the name/title assigned to a service, the name selenium_hub must be used when connecting from other containers or services
+
 image: selenium/hub:3.14.0-curium is stored on docker hub and is downloaded locally, this means it won't build it locally
+
 ports - 4444: 4444 the number left side of the colon (:) is the port on the host machine and the number on the right side is the port inside docker container, both numbers can be same, incase a stand alone version of selenium is running on the host machine, the number on the left side must be modified to any number that is not in use ex: - 4411 : 4444 To connect from host machine get the ip address of the container/service and suffix 4411 ex http://127.18.0.3:4411
+
 
 		  real_device:
 		    image: appium/appium
@@ -65,12 +68,16 @@ Identify the ipaddress of the device emualtor container
 		  $ IP=$(docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' nexus7_emulator)
 		  $ echo $IP
 
-          $ git cd example/android/python
-          $ virtualenv -p python3 venv  #this must be executed only once during the setup
-          $ source venv/bin/activate
-          $ python chess.py
-
-
 You should see a response similar to 172.21.0.3
+
+
+Assuming python virtualenv has already been setup if not do so
+          $ virtualenv -p python3 venv  #this must be executed only once during the setup
+
+Activate virtualenv
+
+          $ source venv/bin/activate
+          $ python example/android/python/chess.py
+
 
 To view the test inside the docker container, point your browser to 172.21.0.3:6080
