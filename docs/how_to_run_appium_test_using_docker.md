@@ -25,4 +25,4 @@ Optionally you can add the path to .bashrc
 4. Restart your terminal.
 
 ### How to run appium test using docker and emulator
-[How to run appium test using docker and emulator](docs/how_to_run_appium_test_using_docker.md)
+[How to run appium test using docker and emulator](docs/CONTRIBUTING.md)
