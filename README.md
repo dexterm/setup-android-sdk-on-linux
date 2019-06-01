@@ -13,8 +13,10 @@ point your browser to https://developer.android.com/studio/index.html#download a
           $ unzip sdk-tools-linux-4333796.zip -d $HOME/Android
           The files will be extracted to your home folder/Android
 
-##4. Add the SDK folder to PATH environment variable
+## Add the SDK folder to PATH environment variable
+
           $ export PATH=$HOME/Android/tools:$HOME/Android/tools/bin:$PATH        
+
 Optionally you can add the path to .bashrc
 
 1. Open the `.bashrc` file in your home directory (for example, `/home/your-user-name/.bashrc`) in a text editor.
