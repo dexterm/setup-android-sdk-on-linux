@@ -81,4 +81,4 @@ Activate virtualenv
 
 
 To view the test inside the docker container, point your browser to 172.21.0.3:6080
-![View Live Test Inside container](docs/images/live_test_inside_container.png)
+![View Live Test Inside container](/docs/images/live_test_inside_container.png)
