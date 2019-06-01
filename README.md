@@ -6,7 +6,7 @@
 ### Download SDK Manager 
 point your browser to https://developer.android.com/studio/index.html#download and scroll down to Command line tools only Download the sdk depending on your platform (Windows, Max, Linux) or directly download the linux version
 
-   - $ wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip
+          $ wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip
 
 ### Extract the downloaded zip file to a location of your choice, preferrably $HOME folder
         - $ mkdir -p $HOME/Android
