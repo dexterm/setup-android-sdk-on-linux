@@ -3,9 +3,9 @@
 
 #### Install Docker, Docker-compose and Docker-machine
 
-     For docker-machine point your browser to https://github.com/docker/machine/releases/
+For docker-machine point your browser to https://github.com/docker/machine/releases/
 
-     copy the code relevant to your OS
+copy the code relevant to your OS
 
 	 $ curl -L https://github.com/docker/machine/releases/download/v0.16.1/docker-machine-`uname -s`-`uname -m` >/tmp/docker-machine && chmod +x /tmp/docker-machine &&  sudo cp /tmp/docker-machine /usr/local/bin/docker-machine
 
