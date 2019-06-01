@@ -1,14 +1,14 @@
 # HOW TO SETUP ANDROID SDK MANAGER ON LINUX WITHOUT DOWNLOADING ANDROID studio
 
 
-## Install JAVA (any provider, openjdk or oracle java)
+### Install JAVA (any provider, openjdk or oracle java)
 
-## Download SDK Manager 
-       - point your browser to https://developer.android.com/studio/index.html#download and scroll down to Command line tools only Download the sdk depending on your platform (Windows, Max, Linux) or directly download the linux version
+### Download SDK Manager 
+point your browser to https://developer.android.com/studio/index.html#download and scroll down to Command line tools only Download the sdk depending on your platform (Windows, Max, Linux) or directly download the linux version
 
-       - $ wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip
+   - $ wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip
 
-## Extract the downloaded zip file to a location of your choice, preferrably $HOME folder
+### Extract the downloaded zip file to a location of your choice, preferrably $HOME folder
         - $ mkdir -p $HOME/Android
         - $ unzip sdk-tools-linux-4333796.zip -d $HOME/Android
         The files will be extracted to your home folder/Android
