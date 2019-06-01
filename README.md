@@ -1,4 +1,4 @@
-## HOW TO SETUP ANDROID SDK MANAGER ON LINUX WITHOUT DOWNLOADING ANDROID studio
+## How to setup Android SDK Manager on Linux without downloading Android Studio
 
 
 #### Install JAVA (any provider, openjdk or oracle java)
